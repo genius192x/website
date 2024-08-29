@@ -132,7 +132,7 @@ Configures the [Mocks Server administration API client](https://github.com/mocks
 ```js
 cy.mocksConfigClient({
   port: 3110,
-  host: "127.0.0.1"
+  host: "127.0.0.1",
   enabled: true,
   https: true,
 });
